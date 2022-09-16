@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background-color: #141519;
+    color: rgb(136, 136, 136);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 350px;
+    height: 350px;
+    background-color: #1f2630;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.img-container img{
+    padding: 10px;
+    background-color: #7d88988a;
+    border-radius: 50%;
+}
+
+.text-container h1{
+    margin-bottom: 5px;
+    color: white;
+
+}
+
+.text-container p{
+    margin-left: 10px;
+}
+
+.levels{
+    display: flex;
+    flex-direction: row;
+    list-style: none;    
+    justify-content: space-evenly;
+}
+
+li{
+    background-color: #7d8898;
+    border-radius: 50%;
+}
+
+.levels li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.levels li a:hover{
+    background-color: #0000003f;
+}
+
+.submit-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-btn{
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    width: 90%;
+}
+
+#submit-btn:hover{
+    background-color: white;
+    color: orange;
+}
+
+.active{
+    background-color: orange;
+}
+
+/* thanks label */
+
+.thank-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-thanks-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.thanks-text p{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #7d889842;
+    color: orange;
+}
+
+.thanks-text{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+.thank-label {
+    text-align: center;
+}
